@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import '@bryntum/schedulerpro/fontawesome/css/fontawesome.css';
+@import '@bryntum/schedulerpro/fontawesome/css/solid.css';
+@import '@bryntum/schedulerpro/schedulerpro.css';
+@import '@bryntum/schedulerpro/svalbard-light.css';
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+#app {
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+    font-size      : 14px;
+}
+
+#scheduler {
+    flex : 3;
+}
+
+#utilization {
+    flex : 2;
+}
