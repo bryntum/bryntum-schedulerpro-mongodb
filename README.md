@@ -17,7 +17,7 @@ Create a `.env` file and add your MongoDB Atlas cluster name and connection stri
 
 ```
 PORT=1339
-MONGODB_URI=mongodb+srv://<dbUsername>:<dbPassword>@<cluster>.mongodb.net
+MONGODB_URI=mongodb+srv://<dbUsername>:<dbPassword>@<clusterName>.<uniqueId>.mongodb.net
 MONGODB_DB=
 ```
 

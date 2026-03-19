@@ -24,5 +24,6 @@ body {
 }
 
 #utilization {
-    flex : 2;
+    flex       : 2;
+    border-top : 2px solid #e0e0e0;
 }
