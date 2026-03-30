@@ -17,8 +17,8 @@ Create a `.env` file and add your MongoDB Atlas cluster name and connection stri
 
 ```
 PORT=1339
-MONGODB_URI=mongodb+srv://<dbUsername>:<dbPassword>@<clusterName>.<uniqueId>.mongodb.net
-MONGODB_DB=
+MONGODB_URI=mongodb+srv://<dbUsername>:<dbPassword>@<clusterName>.<uniqueId>.mongodb.net/?appName=devrel-tutorial-javascript-bryntum
+MONGODB_DB=bryntum-schedulerpro
 ```
 
 ## Populate the MongoDB database with example data

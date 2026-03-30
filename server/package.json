@@ -10,11 +10,11 @@
     "seed": "npm run build && node dist/scripts/seed.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongodb": "^6.15.0"
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "mongodb": "6.15.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.1"
+    "@types/express": "5.0.1"
   }
 }

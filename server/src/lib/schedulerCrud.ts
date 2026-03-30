@@ -1,4 +1,5 @@
-import { Collection, ObjectId } from 'mongodb';
+import { randomUUID } from 'node:crypto';
+import { Collection } from 'mongodb';
 
 export const COLLECTIONS = {
     resources    : 'resources',
@@ -181,7 +182,7 @@ export async function applyStoreChanges({
             } = rawRecord;
 
             const normalized = normalizeAdded(data);
-            const id = String(normalized.id || new ObjectId());
+            const id = String(normalized.id || randomUUID());
             delete normalized.id;
             const recordToStore = {
                 ...normalized,

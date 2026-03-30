@@ -20,7 +20,7 @@ body {
 }
 
 #scheduler {
-    flex : 3;
+    flex   : 3;
 }
 
 #utilization {
