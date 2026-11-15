@@ -8,7 +8,7 @@
     "build": "tsc -p tsconfig.json && vite build"
   },
   "devDependencies": {
-    "@bryntum/schedulerpro": "7.2.2",
+    "@bryntum/scheduler-enterprise": "8.0.1",
     "typescript": "6.0.2",
     "vite": "8.0.3"
   }
