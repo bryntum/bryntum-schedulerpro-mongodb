@@ -1,8 +1,8 @@
+import { Combo } from '@bryntum/core-enterprise';
 import {
-    Combo,
     ResourceUtilization,
-    SchedulerPro,
-} from '@bryntum/schedulerpro';
+    Scheduler,
+} from '@bryntum/scheduler-enterprise';
 import './style.css';
 import {
     filterState,
@@ -13,7 +13,7 @@ import {
     workspaceTypeOptions
 } from './schedulerProConfig';
 
-const scheduler = new SchedulerPro({
+const scheduler = new Scheduler({
     ...schedulerConfig,
     tbar : [
         {

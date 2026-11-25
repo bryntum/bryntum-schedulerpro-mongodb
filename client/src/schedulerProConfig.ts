@@ -1,13 +1,10 @@
 import {
-    DateHelper,
     EventModel,
     ProjectModel,
-    StringHelper,
     type ProjectModelConfig,
     type ResourceUtilizationConfig,
-    type SchedulerEventModel,
-    type SchedulerProConfig
-} from '@bryntum/schedulerpro';
+    type SchedulerConfig
+} from '@bryntum/scheduler-enterprise';
 
 class BookingModel extends EventModel {
     static override fields = [
@@ -62,7 +59,7 @@ export const projectConfig: Partial<ProjectModelConfig> = {
 
 export const project = new ProjectModel(projectConfig);
 
-export const schedulerConfig: Partial<SchedulerProConfig> = {
+export const schedulerConfig: Partial<SchedulerConfig> = {
     appendTo   : 'scheduler',
     project,
     startDate  : '2026-03-16T07:00:00',

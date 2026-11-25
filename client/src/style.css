@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import '@bryntum/schedulerpro/fontawesome/css/fontawesome.css';
-@import '@bryntum/schedulerpro/fontawesome/css/solid.css';
-@import '@bryntum/schedulerpro/schedulerpro.css';
-@import '@bryntum/schedulerpro/svalbard-light.css';
+@import '@bryntum/core-enterprise/fontawesome/css/fontawesome.css';
+@import '@bryntum/core-enterprise/fontawesome/css/solid.css';
+@import '@bryntum/scheduler-enterprise/scheduler.css';
+@import '@bryntum/scheduler-enterprise/svalbard-light.css';
 
 * {
     margin: 0;

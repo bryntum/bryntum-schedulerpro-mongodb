@@ -1,7 +1,7 @@
 
-# Create a workspace scheduler using Bryntum Scheduler Pro and MongoDB
+# Create a workspace scheduler using Bryntum Scheduler and MongoDB
 
-This starter template is an npm workspaces TypeScript monorepo that contains a Vite client app and an Express server app. The client uses [Vite](https://vite.dev/) and [Bryntum Scheduler Pro](https://bryntum.com/products/schedulerpro/). The server uses Express and MongoDB. 
+This starter template is an npm workspaces TypeScript monorepo that contains a Vite client app and an Express server app. The client uses [Vite](https://vite.dev/) and [Bryntum Scheduler](https://bryntum.com/products/scheduler/) (Enterprise tier, `@bryntum/scheduler-enterprise`). The server uses Express and MongoDB. 
 
 ## Install the dependencies
 
